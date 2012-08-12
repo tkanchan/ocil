@@ -13,6 +13,6 @@
 	<%
 	 Test t = new Test("Tanes");
 	%>
-	Hello <%=t.getName() %>
+	Hello dear <%=t.getName() %>
 </body>
 </html>
