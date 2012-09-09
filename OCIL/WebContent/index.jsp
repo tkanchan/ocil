@@ -1,6 +1,6 @@
-<%@ page import="com.itevo.ocil.Test" language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1" %>
-    
+<%@ page import="com.itevo.ocil.Test" language="java"
+	contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -8,11 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	Today Date is <%=new java.util.Date() %>
-	<input type="text" name="name"/>
+	Today Date is
+	<%=new java.util.Date()%>
+	<input type="text" name="name" />
 	<%
-	 Test t = new Test("Tanes");
+		Test t = new Test("Tanes");
 	%>
-	Hello dear <%=t.getName() %>
+	Hello dear
+	<%=t.getName()%>
 </body>
 </html>
