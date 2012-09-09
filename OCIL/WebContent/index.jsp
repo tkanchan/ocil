@@ -14,7 +14,6 @@
 	<%
 		Test t = new Test("Tanes");
 	%>
-	Hello dear
-	<%=t.getName()%>
+	Hello <%=t.getName()%>
 </body>
 </html>
